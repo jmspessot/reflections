@@ -1,0 +1,31 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+If the old version of the file worked and the new one does not, it means that
+the problem was introduced in the new version.
+The diff tool allowed to find the differences between the 2 versions and 
+as changes were few, it was very easy to find the line that was introducing the problem.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I think it makes it easier to detect an error because versions allow you to see the changes done from a working version to a non working version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: You save a version only when it has a new logical step. You save a version that you think will work. You don't have so many versions.
+Cons: If you forget to commit, it can be good to have the system automatically commiting for you.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I suppose that's because they're intended for handling different files. While Git is mainly used for code files, Google docs is used for office files that generally don't make sense tracking together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+The git log command let's me view the history of all the commits applied to the repo and the git diff let's me view the differences (additions and deletions) made to the files of the repo in 2 differents commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+By knowing that I have the chance to return to a previous state of the program where everything works fine, gives me the confidence to go and try the solutions I'm thinking of and if it doesn't work don't worry about what went wrong.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'll try to use it to learn HTML, CSS and JavaScript.
