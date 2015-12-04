@@ -6,3 +6,6 @@ How is the staging area different from the working directory and the repository?
 
 The staging area is not a directory but a logical set of files that are related in some way and will be together if a commit is done. The value it offers is the possibility of adding the files you believe must be commited altogether and when you're sure about it, make the commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area can be compared to both the latest commit and to the file in the working directory so you can validate the number of logical changes compared to the latest commit before you make a new commit.
