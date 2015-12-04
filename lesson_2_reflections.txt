@@ -9,3 +9,7 @@ The staging area is not a directory but a logical set of files that are related 
 How can you use the staging area to make sure you have one commit per logical change?
 
 The staging area can be compared to both the latest commit and to the file in the working directory so you can validate the number of logical changes compared to the latest commit before you make a new commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can help whenever you have stable versions of a program and want to preserve them as they were. Branch will allow to have a different branch per version in this case.
