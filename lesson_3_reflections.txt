@@ -15,3 +15,7 @@ The main benefit I can think of is that it allows you to see and work with those
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 If i didn't have Git or GitHub I'd probably use a shared drive in a LAN to collaborate or if the team is in different locations, I'd use a sharepoint site or similar. The easier part would be to avoid having to learn Git or GitHub but it'd be really hard to know what changed in each version.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Changes in a separate branch allows us to test experimental features without harming already working versions of Master and also allows us to share that branch with others to get their help and review. Making changes directly to master is something I'd preferably avoid but if I had to do it, I'd leave it only for very small changes.
