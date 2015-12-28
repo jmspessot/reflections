@@ -11,3 +11,7 @@ Forks: A fork is a repo in Github, a clone is a copy of a repo in a server into 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The main benefit I can think of is that it allows you to see and work with those changes even if you're offline. Also, the editin tools that you have locally are better than those you have online.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If i didn't have Git or GitHub I'd probably use a shared drive in a LAN to collaborate or if the team is in different locations, I'd use a sharepoint site or similar. The easier part would be to avoid having to learn Git or GitHub but it'd be really hard to know what changed in each version.
